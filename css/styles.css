@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(180, 155, 207);
+}
+
+#header {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#intro {
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+}
