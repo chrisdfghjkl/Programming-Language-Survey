@@ -36,3 +36,7 @@ body {
   background-color: #eee;
   margin-bottom: 20px;
 }
+
+#result1, #result2, #result3, #result4 {
+  display: none;
+}
