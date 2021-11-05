@@ -7,7 +7,15 @@ $(document).ready(function() {
     const color = $("#color").val();
 
     if (birdFan > 3) {
+
       $("#result4").show();
+      $("#result2").hide();
+      
+    } else if ( birdFan <= 3 || color === 'red') {
+
+      $("#result2").show();
+      $("#result4").hide();
+
     }
       
     event.preventDefault();
