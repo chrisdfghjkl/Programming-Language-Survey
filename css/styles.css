@@ -1,12 +1,18 @@
-body {
-  background-color: rgb(180, 155, 207);
-}
-
 #header {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: helvetica;
 }
 
 #intro {
   text-align: justify;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: helvetica;
+  line-height: 30px;
+}
+
+.form-group {
+  border: 2px solid #eee;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #eee;
+  font-size: 20px;
+  font-family: helvetica;
 }
