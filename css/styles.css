@@ -13,6 +13,9 @@
   border-radius: 5px;
   padding: 20px;
   background-color: #eee;
-  font-size: 20px;
   font-family: helvetica;
+}
+
+.question-title {
+  font-size: 20px;
 }
