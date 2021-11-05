@@ -27,3 +27,11 @@ body {
 .btn {
   margin-bottom: 30px;
 }
+
+.results {
+  border: 2px solid #eee;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: helvetica;
+  background-color: #eee;
+}
