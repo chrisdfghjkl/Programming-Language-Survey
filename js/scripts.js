@@ -6,16 +6,34 @@ $(document).ready(function() {
     const email = $("input[name='valediction']:checked").val();
     const color = $("#color").val();
 
-    if (birdFan > 3) {
+    if (coffee === 'black' || post === 'malone' || color === 'yellow' || color === 'black') {
 
-      $("#result4").show();
+      $("#result1").show();
       $("#result2").hide();
-      
-    } else if ( birdFan <= 3 || color === 'red') {
-
-      $("#result2").show();
+      $("#result3").hide();
       $("#result4").hide();
 
+    } else if ( coffee === 'cream' || post === 'hardcore' || color === 'red' || email === 'bye2') {
+
+      $("#result2").show();
+      $("#result1").hide();
+      $("#result3").hide();
+      $("#result4").hide();
+
+    } else if (coffee === 'sugar' || post === 'office' || email === 'bye3' || birdFan < 3 || color === 'blue' || color === 'purple') {
+
+      $("#result3").show();
+      $("#result2").hide();
+      $("#result1").hide();
+      $("#result4").hide();
+
+
+    } else if (birdFan > 3 || coffee === 'tea' || post === 'mortem' || email === 'bye4' || color === 'orange' || color === 'green') {
+
+      $("#result4").show();
+      $("#result3").hide();
+      $("#result2").hide();
+      $("#result1").hide();
     }
       
     event.preventDefault();
