@@ -37,6 +37,14 @@ body {
   margin-bottom: 20px;
 }
 
-/*#result1, #result2, #result3, #result4 {
+#result1, #result2, #result3, #result4 {
   display: none;
+} 
+
+.result-info {
+  float: right;
+  margin-left: 50px;
+  text-align: justify;
+  margin-top: 30px;
+  font-size: 18px;
 }
